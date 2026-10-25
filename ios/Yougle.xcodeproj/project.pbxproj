@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0665A4FAE6EB333A217AA48A /* EditEntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EB84282DF7164AF9292DF2 /* EditEntityView.swift */; };
+		252AD1AC7E43B69A7B8FCBF9 /* EntityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1E33C18370D200A18E413 /* EntityDetailView.swift */; };
+		3CCF1E15F872B5DFFDCBFED4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D055C7A481D5431BD24D67 /* APIClient.swift */; };
+		5CE937EA4714072941986AB6 /* YougleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A69735741CACFE7E115E6 /* YougleApp.swift */; };
+		5DAF7D3C7F7FF6DB62DAB0F1 /* CreateEntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14321E27C94529CADE9DE5 /* CreateEntityView.swift */; };
+		5DF59EF2F82DF3D6493D828C /* AddRelationshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4615DB7169A723FD591EFA2 /* AddRelationshipView.swift */; };
+		972DE4492F505757E772C6A8 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A5287B6C57FC7A8CB67EE /* Entity.swift */; };
+		D74EAC00119C2ABF190F72F1 /* EntityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11C457AAB090A5B04143081 /* EntityListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		038F66AC88714366EC24B9D5 /* Yougle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Yougle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E1E33C18370D200A18E413 /* EntityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityDetailView.swift; sourceTree = "<group>"; };
+		35EB84282DF7164AF9292DF2 /* EditEntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEntityView.swift; sourceTree = "<group>"; };
+		73D055C7A481D5431BD24D67 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9B5A5287B6C57FC7A8CB67EE /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		A11C457AAB090A5B04143081 /* EntityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityListView.swift; sourceTree = "<group>"; };
+		C4615DB7169A723FD591EFA2 /* AddRelationshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRelationshipView.swift; sourceTree = "<group>"; };
+		EF14321E27C94529CADE9DE5 /* CreateEntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEntityView.swift; sourceTree = "<group>"; };
+		F27A69735741CACFE7E115E6 /* YougleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YougleApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00F4710CC112768C68C80179 /* Yougle */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8DF782D1E5E9645FD93D8 /* App */,
+				D9311F56052A711C799A5D4A /* Features */,
+				8E5E9FC46F038BE2783354BE /* Models */,
+				4AF9519734973601F07C71D0 /* Networking */,
+			);
+			path = Yougle;
+			sourceTree = "<group>";
+		};
+		1BCEB893616EECC90B92163C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C4615DB7169A723FD591EFA2 /* AddRelationshipView.swift */,
+				EF14321E27C94529CADE9DE5 /* CreateEntityView.swift */,
+				35EB84282DF7164AF9292DF2 /* EditEntityView.swift */,
+				17E1E33C18370D200A18E413 /* EntityDetailView.swift */,
+				A11C457AAB090A5B04143081 /* EntityListView.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		4AF9519734973601F07C71D0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				73D055C7A481D5431BD24D67 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5FC8DF782D1E5E9645FD93D8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F27A69735741CACFE7E115E6 /* YougleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8E5E9FC46F038BE2783354BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B5A5287B6C57FC7A8CB67EE /* Entity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A753F8378EE5A878DBB8985C = {
+			isa = PBXGroup;
+			children = (
+				00F4710CC112768C68C80179 /* Yougle */,
+				F531D69DCCFE1BC222DE252D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9311F56052A711C799A5D4A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB893616EECC90B92163C /* Entities */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F531D69DCCFE1BC222DE252D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038F66AC88714366EC24B9D5 /* Yougle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE31BD451A3B78600173A69 /* Yougle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A37B24B7DE41A619681BB9E /* Build configuration list for PBXNativeTarget "Yougle" */;
+			buildPhases = (
+				80F0E708943994E18C5776F8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yougle;
+			packageProductDependencies = (
+			);
+			productName = Yougle;
+			productReference = 038F66AC88714366EC24B9D5 /* Yougle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA4EA92293F72FA0229FEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 846604B530CDB723B0A2D5A6 /* Build configuration list for PBXProject "Yougle" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A753F8378EE5A878DBB8985C;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = F531D69DCCFE1BC222DE252D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE31BD451A3B78600173A69 /* Yougle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F0E708943994E18C5776F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCF1E15F872B5DFFDCBFED4 /* APIClient.swift in Sources */,
+				5DF59EF2F82DF3D6493D828C /* AddRelationshipView.swift in Sources */,
+				5DAF7D3C7F7FF6DB62DAB0F1 /* CreateEntityView.swift in Sources */,
+				0665A4FAE6EB333A217AA48A /* EditEntityView.swift in Sources */,
+				972DE4492F505757E772C6A8 /* Entity.swift in Sources */,
+				252AD1AC7E43B69A7B8FCBF9 /* EntityDetailView.swift in Sources */,
+				D74EAC00119C2ABF190F72F1 /* EntityListView.swift in Sources */,
+				5CE937EA4714072941986AB6 /* YougleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		026C9F1E060D9FA2C64B4FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		715200C6052AF53F362BE0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Yougle;
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yougle.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B51878B69286608AF997E20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C9A28BF5F808B9E4CD51B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Yougle;
+				INFOPLIST_KEY_CFBundleShortVersionString = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yougle.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A37B24B7DE41A619681BB9E /* Build configuration list for PBXNativeTarget "Yougle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A28BF5F808B9E4CD51B50B /* Debug */,
+				715200C6052AF53F362BE0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		846604B530CDB723B0A2D5A6 /* Build configuration list for PBXProject "Yougle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026C9F1E060D9FA2C64B4FB8 /* Debug */,
+				B51878B69286608AF997E20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA4EA92293F72FA0229FEED /* Project object */;
+}

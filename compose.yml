@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3000
+      DATABASE_PATH: /app/data/yougle.sqlite
+      DEFAULT_USER_ID: 00000000-0000-4000-8000-000000000001
+      LOG_HTTP_BODIES: "false"
+    ports:
+      # Keep the API private to the VPS until authentication is implemented.
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - yougle-data:/app/data
+
+volumes:
+  yougle-data:
+

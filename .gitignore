@@ -1,0 +1,10 @@
+.DS_Store
+.env
+backend/node_modules/
+backend/dist/
+backend/data/
+ios/DerivedData/
+ios/*.xcodeproj/xcuserdata/
+**/xcuserdata/
+
+

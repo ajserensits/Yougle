@@ -1,0 +1,9 @@
+.git
+.gitignore
+.DS_Store
+backend/node_modules
+backend/dist
+backend/data
+ios
+docs
+
